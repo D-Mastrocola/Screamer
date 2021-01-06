@@ -54,4 +54,24 @@ h1 {
 #login-btn {
   background-color: #ed7d3a;
 }
-
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form input {
+  margin: 10px 0;
+}
+#login-password-input {
+  height: 40px;
+}
+#login-email-input {
+  height: 40px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+.signup-form input {
+  margin: 10px 0;
+  height: 40px;
+}
